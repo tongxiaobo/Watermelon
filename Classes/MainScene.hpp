@@ -10,7 +10,7 @@
 
 #include "cocos2d.h"
 
-class MainScene : public cocos2d::Scene
+class MainScene : public cocos2d::Node
 {
 public:
     // there's no 'id' in cpp, so we recommend returning the class instance pointer

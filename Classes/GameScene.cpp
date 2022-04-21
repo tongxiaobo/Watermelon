@@ -77,7 +77,7 @@ bool GameScene::init()
     contactListener->onContactBegin = CC_CALLBACK_1(GameScene::onContactBegin, this);
     _eventDispatcher->addEventListenerWithSceneGraphPriority(contactListener, this);
 
-    auto physicsBody = PhysicsBody::createEdgeBox(visibleSize,PhysicsMaterial(10.f, 0.f, 0.5f));
+    auto physicsBody = PhysicsBody::createEdgeBox(visibleSize,PhysicsMaterial(0.1f, 0.f, 1.f));
     physicsBody->setContactTestBitmask(0xFFFFFFFF);
     auto node = Node::create();
     node->setPhysicsBody(physicsBody);
@@ -116,7 +116,7 @@ Sprite* GameScene::createFruit(int number) {
 
 void GameScene::addPhysics(Sprite* fruit) {
     float r = fruit->getContentSize().width/2.0;
-    auto physicsBody = PhysicsBody::createCircle(r, PhysicsMaterial(1.0f, 0.1f, 0.5));
+    auto physicsBody = PhysicsBody::createCircle(r, PhysicsMaterial(3.0f, 0.3f, 0.5));
     physicsBody->setDynamic(true);
     physicsBody->setName("physicsBody");
 //    physicsBody->setMass(10);
@@ -202,4 +202,3 @@ bool GameScene::onContactBegin(PhysicsContact& contact) {
     }
     return true;
 }
-

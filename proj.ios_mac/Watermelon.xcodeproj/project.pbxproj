@@ -41,7 +41,6 @@
 		BF171245129291EC00B8313A /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF170DB012928DE900B8313A /* OpenGLES.framework */; };
 		BF1712471292920000B8313A /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = BF170DB412928DE900B8313A /* libz.dylib */; };
 		BF1C47F01293687400B63C5D /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF1C47EA1293683800B63C5D /* QuartzCore.framework */; };
-		CE1306C627F7258B00BEC48F /* imgball11.png in Resources */ = {isa = PBXBuildFile; fileRef = CE1306C527F7258B00BEC48F /* imgball11.png */; };
 		CE4ECBF727D22D8A00D2CBC3 /* MainScene.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CE4ECBF627D22D8900D2CBC3 /* MainScene.cpp */; };
 		CE4ECBF927D22F5B00D2CBC3 /* HelloWorld.png in Resources */ = {isa = PBXBuildFile; fileRef = CE4ECBF827D22F5B00D2CBC3 /* HelloWorld.png */; };
 		CE4ECBFB27D231AA00D2CBC3 /* shouyebg.png in Resources */ = {isa = PBXBuildFile; fileRef = CE4ECBFA27D231AA00D2CBC3 /* shouyebg.png */; };
@@ -62,6 +61,7 @@
 		CE4ED7BA27D61BCB00D2CBC3 /* imgball8.png in Resources */ = {isa = PBXBuildFile; fileRef = CE4ED7AF27D61BCB00D2CBC3 /* imgball8.png */; };
 		CE4ED7BB27D61BCB00D2CBC3 /* imgball7.png in Resources */ = {isa = PBXBuildFile; fileRef = CE4ED7B027D61BCB00D2CBC3 /* imgball7.png */; };
 		CE4ED7BC27D61BCB00D2CBC3 /* imgball9.png in Resources */ = {isa = PBXBuildFile; fileRef = CE4ED7B127D61BCB00D2CBC3 /* imgball9.png */; };
+		CEA1A0C628111B0A001E80A8 /* imgball11.png in Resources */ = {isa = PBXBuildFile; fileRef = CEA1A0C528111B0A001E80A8 /* imgball11.png */; };
 		D44C620C132DFF330009C878 /* OpenAL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D44C620B132DFF330009C878 /* OpenAL.framework */; };
 		D44C620E132DFF430009C878 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D44C620D132DFF430009C878 /* AVFoundation.framework */; };
 		D44C6210132DFF4E0009C878 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D44C620F132DFF4E0009C878 /* AudioToolbox.framework */; };
@@ -144,10 +144,6 @@
 		BF170DB012928DE900B8313A /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
 		BF170DB412928DE900B8313A /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
 		BF1C47EA1293683800B63C5D /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
-		CE1306C527F7258B00BEC48F /* imgball11.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = imgball11.png; sourceTree = "<group>"; };
-		CE1EB98F280874B100859C7D /* lib */ = {isa = PBXFileReference; lastKnownFileType = folder; name = lib; path = ../../../../../../usr/lib; sourceTree = "<group>"; };
-		CE1EB99828087CE300859C7D /* libz.1.2.8.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.1.2.8.tbd; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS15.2.sdk/usr/lib/libz.1.2.8.tbd; sourceTree = DEVELOPER_DIR; };
-		CE1EB99A28087CEE00859C7D /* libiconv.2.4.0.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libiconv.2.4.0.tbd; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS15.2.sdk/usr/lib/libiconv.2.4.0.tbd; sourceTree = DEVELOPER_DIR; };
 		CE4ECBF427D22D8900D2CBC3 /* MainScene.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = MainScene.hpp; sourceTree = "<group>"; };
 		CE4ECBF627D22D8900D2CBC3 /* MainScene.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = MainScene.cpp; sourceTree = "<group>"; };
 		CE4ECBF827D22F5B00D2CBC3 /* HelloWorld.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = HelloWorld.png; sourceTree = "<group>"; };
@@ -170,6 +166,7 @@
 		CE4ED7AF27D61BCB00D2CBC3 /* imgball8.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = imgball8.png; sourceTree = "<group>"; };
 		CE4ED7B027D61BCB00D2CBC3 /* imgball7.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = imgball7.png; sourceTree = "<group>"; };
 		CE4ED7B127D61BCB00D2CBC3 /* imgball9.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = imgball9.png; sourceTree = "<group>"; };
+		CEA1A0C528111B0A001E80A8 /* imgball11.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = imgball11.png; sourceTree = "<group>"; };
 		D44C620B132DFF330009C878 /* OpenAL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenAL.framework; path = System/Library/Frameworks/OpenAL.framework; sourceTree = SDKROOT; };
 		D44C620D132DFF430009C878 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 		D44C620F132DFF4E0009C878 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
@@ -275,9 +272,6 @@
 		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				CE1EB99A28087CEE00859C7D /* libiconv.2.4.0.tbd */,
-				CE1EB99828087CE300859C7D /* libz.1.2.8.tbd */,
-				CE1EB98F280874B100859C7D /* lib */,
 				294D0D631D0D56D500F7F5D4 /* CoreText.framework */,
 				ED545A7D1B68A1FA00C3958E /* libiconv.dylib */,
 				ED545A7B1B68A1F400C3958E /* libiconv.dylib */,
@@ -325,7 +319,7 @@
 				CE4ED7AF27D61BCB00D2CBC3 /* imgball8.png */,
 				CE4ED7B127D61BCB00D2CBC3 /* imgball9.png */,
 				CE4ED7AB27D61BCA00D2CBC3 /* imgball10.png */,
-				CE1306C527F7258B00BEC48F /* imgball11.png */,
+				CEA1A0C528111B0A001E80A8 /* imgball11.png */,
 			);
 			name = Resources;
 			path = ../Resources;
@@ -474,7 +468,7 @@
 			files = (
 				CE4ECC0A27D5D09100D2CBC3 /* youxibeij.png in Resources */,
 				CE4ECC0C27D5D0C400D2CBC3 /* toplineimg.png in Resources */,
-				CE1306C627F7258B00BEC48F /* imgball11.png in Resources */,
+				CEA1A0C628111B0A001E80A8 /* imgball11.png in Resources */,
 				CE4ED7B327D61BCB00D2CBC3 /* imgball1.png in Resources */,
 				CE4ED7BA27D61BCB00D2CBC3 /* imgball8.png in Resources */,
 				CE4ECBFB27D231AA00D2CBC3 /* shouyebg.png in Resources */,
@@ -553,14 +547,12 @@
 		1D6058940D05DD3E006BFB54 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALLOW_TARGET_PLATFORM_SPECIALIZATION = YES;
 				ALWAYS_SEARCH_USER_PATHS = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				COMPRESS_PNG_FILES = NO;
 				DEVELOPMENT_TEAM = 5VJ7HP434A;
 				ENABLE_BITCODE = NO;
-				EXCLUDED_ARCHS = "";
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
@@ -573,19 +565,16 @@
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
 				HEADER_SEARCH_PATHS = "$(inherited)";
 				INFOPLIST_FILE = ios/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				LIBRARY_SEARCH_PATHS = "";
-				ONLY_ACTIVE_ARCH = YES;
 				OTHER_LDFLAGS = (
 					"$(_COCOS_LIB_IOS_BEGIN)",
 					"$(_COCOS_LIB_IOS_END)",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.cyriltong.watermelon;
+				PRODUCT_BUNDLE_IDENTIFIER = com.tongxiaobo.watermelon1;
 				SDKROOT = iphoneos;
 				STRIP_PNG_TEXT = NO;
-				SUPPORTED_PLATFORMS = "iphonesimulator iphoneos";
-				SUPPORTS_MACCATALYST = YES;
-				TARGETED_DEVICE_FAMILY = 1;
+				TARGETED_DEVICE_FAMILY = "1,2";
 				USER_HEADER_SEARCH_PATHS = "$(_COCOS_HEADER_IOS_BEGIN) $(_COCOS_HEADER_IOS_END)";
 				VALID_ARCHS = "arm64 armv7";
 			};
@@ -594,14 +583,12 @@
 		1D6058950D05DD3E006BFB54 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALLOW_TARGET_PLATFORM_SPECIALIZATION = YES;
 				ALWAYS_SEARCH_USER_PATHS = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				COMPRESS_PNG_FILES = NO;
 				DEVELOPMENT_TEAM = 5VJ7HP434A;
 				ENABLE_BITCODE = NO;
-				EXCLUDED_ARCHS = "";
 				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = ios/Prefix.pch;
@@ -613,19 +600,16 @@
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
 				HEADER_SEARCH_PATHS = "$(inherited)";
 				INFOPLIST_FILE = ios/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				LIBRARY_SEARCH_PATHS = "";
-				ONLY_ACTIVE_ARCH = NO;
 				OTHER_LDFLAGS = (
 					"$(_COCOS_LIB_IOS_BEGIN)",
 					"$(_COCOS_LIB_IOS_END)",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.cyriltong.watermelon;
+				PRODUCT_BUNDLE_IDENTIFIER = com.tongxiaobo.watermelon1;
 				SDKROOT = iphoneos;
 				STRIP_PNG_TEXT = NO;
-				SUPPORTED_PLATFORMS = "iphonesimulator iphoneos";
-				SUPPORTS_MACCATALYST = YES;
-				TARGETED_DEVICE_FAMILY = 1;
+				TARGETED_DEVICE_FAMILY = "1,2";
 				USER_HEADER_SEARCH_PATHS = "$(_COCOS_HEADER_IOS_BEGIN) $(_COCOS_HEADER_IOS_END)";
 				VALID_ARCHS = "arm64 armv7";
 			};
@@ -698,7 +682,6 @@
 				CLANG_CXX_LANGUAGE_STANDARD = "c++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				COPY_PHASE_STRIP = NO;
-				EXCLUDED_ARCHS = "";
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
@@ -716,7 +699,6 @@
 				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = macosx;
-				SUPPORTED_PLATFORMS = "iphonesimulator iphoneos";
 			};
 			name = Debug;
 		};
@@ -725,7 +707,6 @@
 			buildSettings = {
 				CLANG_CXX_LANGUAGE_STANDARD = "c++0x";
 				CLANG_CXX_LIBRARY = "libc++";
-				EXCLUDED_ARCHS = "";
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				HEADER_SEARCH_PATHS = (
@@ -742,7 +723,6 @@
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = macosx;
-				SUPPORTED_PLATFORMS = "iphonesimulator iphoneos";
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;

@@ -6060,8 +6060,6 @@
 		C5F516151C8216C60013B695 /* CSTabControl_generated.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CSTabControl_generated.h; path = TabControlReader/CSTabControl_generated.h; sourceTree = "<group>"; };
 		C5F516161C8216C60013B695 /* TabControlReader.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = TabControlReader.cpp; path = TabControlReader/TabControlReader.cpp; sourceTree = "<group>"; };
 		C5F516171C8216C60013B695 /* TabControlReader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TabControlReader.h; path = TabControlReader/TabControlReader.h; sourceTree = "<group>"; };
-		CE1EB99C28087D3500859C7D /* libz.1.2.11.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.1.2.11.tbd; path = usr/lib/libz.1.2.11.tbd; sourceTree = SDKROOT; };
-		CE1EB99E28087D4300859C7D /* libiconv.2.4.0.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libiconv.2.4.0.tbd; path = usr/lib/libiconv.2.4.0.tbd; sourceTree = SDKROOT; };
 		D0FD033B1A3B51AA00825BB5 /* CCAllocatorBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCAllocatorBase.h; sourceTree = "<group>"; };
 		D0FD033C1A3B51AA00825BB5 /* CCAllocatorDiagnostics.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CCAllocatorDiagnostics.cpp; sourceTree = "<group>"; };
 		D0FD033D1A3B51AA00825BB5 /* CCAllocatorDiagnostics.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCAllocatorDiagnostics.h; sourceTree = "<group>"; };
@@ -6239,8 +6237,6 @@
 		1551A341158F2AB200E66CFE /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				CE1EB99E28087D4300859C7D /* libiconv.2.4.0.tbd */,
-				CE1EB99C28087D3500859C7D /* libz.1.2.11.tbd */,
 				ED682BC4213F6CBE001BF6CB /* libuv_a.a */,
 				ED682BC2213F6C7A001BF6CB /* libwebsockets.a */,
 				ED682BB9213F5FC6001BF6CB /* libuv_a.a */,
@@ -11583,7 +11579,6 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
-				English,
 				en,
 			);
 			mainGroup = 1551A334158F2AB200E66CFE;
